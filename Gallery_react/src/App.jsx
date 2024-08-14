@@ -1,14 +1,12 @@
-
-import './App.css'
+import React from 'react';
+import Header from './components/Header';
 
 function App() {
-
-
-  return (
-    <>
-      
-    </>
-  )
+    return (
+        <>
+            <Header headerText="Under the Moon" />
+        </>
+    );
 }
 
-export default App
+export default App;
