@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #262626;
+    width:1190px;
+    height:406px;   
+    font-family: 'Guida Display';
+    .footerSection{
+        flex:1;
+        margin: 0 10px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 10px;
+        padding-top: 6rem;
+        padding-left: 2rem;
+        font-family: 'Guida Display';
+        h2 {
+           margin-bottom: 15px;
+           color: #FFFFFF;
+           font-size: 20px;
+           padding: 10px;
+           font-family: 'Guida Display';
+           line-height: 8px;
+           font-weight: 200;
+       }
+       .links {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+           color:#FFFFFF;
+           font-size: 16px;
+           line-height: 10px;
+       
+       }
+       
+       .links li {
+           margin-bottom: 10px;
+       }
+       
+       .icons  {
+           display: block;
+           margin-bottom: 10px;
+           img{
+               width: 25px;
+               padding: 0.5rem;
+               filter: invert(1) brightness(2);
+           }
+           }
+       
+           .form {
+            display: flex;
+            flex-direction: column;
+            button {
+                //padding: 10px;
+                background-color: #1f1f1f;
+                color:#FFFFFF;
+                cursor: pointer;
+                width: 130px;
+                height: 32px;
+                border: 1px solid #FFFFFF;
+                border-radius: 0;
+                align-items: center;
+            }
+            .nameInput, .emailInput {
+                margin-bottom: 10px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                background-color: #D9D9D9;
+                height: 15px;
+            }
+        }
+        }
+       
+
+    
+}
+
+
+
+
+
+
+
