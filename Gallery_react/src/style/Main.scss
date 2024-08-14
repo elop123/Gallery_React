@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.newStyle {
+    width: 696px;
+    height: 347px;
+    border: 1px solid white;
+    margin: auto;
+    padding: 1rem;
+    h2{
+        font-family: "Gilda Display", serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    p{
+        font-family: "Gilda Display", serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+
+    }
+    button{
+        width: 138px;
+        height: 40px;
+        border: 1px solid #1F1F1F;
+        border-radius: 0;
+        font-weight: normal;
+    }
+}
+
+.gallery{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        position: relative;
+        //max-width: 300px;
+    img{
+        width: 98%;
+        height: 100%;
+        display: block;
+    }
+    button{
+        width: 138px;
+        height: 40px;
+        border: 1px solid #1F1F1F;
+        border-radius: 0;
+        font-weight: normal;
+    }
+    .gal{
+        width: 400px;
+        position: absolute;
+        top: 50%; 
+        left: 25%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        h3{
+            font-weight: 200;
+            font-size: 32px;
+            font-family: "Gilda Display", serif;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 15px;
+            font-family: "Gilda Display", serif;
+        }
+        button{
+            width: 138px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 0;
+            font-weight: normal;
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+        }
+    }
+    .gal2{
+        width: 400px;
+        position: absolute;
+        top: 50%; 
+        left: 75%; 
+        transform: translate(-50%, -50%);
+        color: white;
+    
+        h3{
+            font-weight: 200;
+            font-size: 32px;
+            font-family: "Gilda Display", serif;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 15px;
+            font-family: "Gilda Display", serif;
+        }
+        button{
+            width: 138px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 0;
+            font-weight: normal;
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+        }
+    }
+
+}
