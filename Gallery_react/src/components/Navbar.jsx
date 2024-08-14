@@ -1,4 +1,3 @@
-
 import style from '../style/Navbar.module.scss';
 
 function Navbar() {
