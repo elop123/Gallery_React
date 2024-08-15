@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import headerImage from "../assets/images/header.jpg";
+import headerImage from "../assets/header.jpg";
 import styles from '../style/Header.module.scss';
  
 function Header({ headerText = "Mangler headerText" }) {
