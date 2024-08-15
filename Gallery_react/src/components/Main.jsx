@@ -7,6 +7,9 @@ function Main(){
 return(
 <>
 <section className={styles.newStyle}>
+    <div>
+        
+    </div>
 <h2>UNDER THE MOON- NEW STYLE</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid 
             odio aut quia officia deleniti nihil tempore repudiandae distinctio voluptate! 
