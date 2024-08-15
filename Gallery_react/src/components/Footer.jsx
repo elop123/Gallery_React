@@ -4,7 +4,7 @@ function Footer (){
     return(
 <>
 <footer className={styles.main_footer}>
-<div className={styles.footerSection}>
+  <div className={styles.footerSection}>
 <h2>SUBSCRIBE TO NEWSLATER</h2>
 <form className={styles.form}>
 <input type="text" placeholder ="Full name" className={styles.nameInput} />
@@ -24,9 +24,9 @@ function Footer (){
 </ul>
 <h2>FOLLOW US</h2>
 <div className={styles.icons}>
-<img src="..//src/assets/twitter-sign.png"></img>
-<img src="..//src/assets/twitter-sign.png"></img>
-<img src="..//src/assets/twitter-sign.png"></img>
+<img src="..//src/assets/images/twitter-sign.png"></img>
+<img src="..//src/assets/images/twitter-sign.png"></img>
+<img src="..//src/assets/images/twitter-sign.png"></img>
 </div>
 </div>
 <div className={styles.footerSection}>

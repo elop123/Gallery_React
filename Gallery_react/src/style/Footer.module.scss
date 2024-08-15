@@ -4,10 +4,13 @@
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    margin-left: 1.4rem;
     background-color: #262626;
-    width:1190px;
-    height:350px;   
-    font-family: 'Guida Display';
+    width:100%;
+    height:300px;   
+    font-family: "Gilda Display", serif;
+    font-family: 100;
+}
     .footerSection{
         flex:1;
         margin: 0 10px;
@@ -16,13 +19,15 @@
         line-height: 10px;
         padding-top: 2rem;
         padding-left: 2rem;
-        font-family: 'Guida Display';
+        font-family: "Gilda Display", serif;
+        font-family: 100;
         h2 {
            margin-bottom: 15px;
            color: #FFFFFF;
            font-size: 20px;
            padding: 10px;
-           font-family: 'Guida Display';
+           font-family: "Gilda Display", serif;
+            font-family: 100;
            line-height: 8px;
            font-weight: 200;
        }
@@ -33,6 +38,7 @@
            color:#FFFFFF;
            font-size: 16px;
            line-height: 10px;
+           //margin-right: 3rem;
        }
        .links li {
            margin-bottom: 10px;
@@ -40,6 +46,7 @@
        .icons  {
            display: block;
            margin-bottom: 10px;
+           align-items: center;
            img{
                width: 25px;
                padding: 0.5rem;
@@ -59,11 +66,13 @@
                 border: 1px solid #FFFFFF;
                 border-radius: 0;
                 text-align: center;
+                margin-left: 2.8rem;
             }
             .nameInput, .emailInput {
                 margin-bottom: 10px;
                 padding: 5px;
                 margin-top: 12px;
+                margin-left: 2.8rem;
                 border: 1px solid #ccc;
                 background-color: #D9D9D9;
                 height: 15px;
@@ -73,4 +82,3 @@
 
  
     
-}

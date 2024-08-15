@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
  
 .newStyle {
+    //box-sizing: border-box;
     width: 696px;
     height: 347px;
     border: 1px solid white;
@@ -27,6 +28,7 @@
         border-radius: 0;
         font-weight: normal;
         margin-top: 3rem;
+        font-family: "Gilda Display", serif;
     }
 }
  
@@ -73,6 +75,7 @@
             font-weight: normal;
             background-color: #1F1F1F;
             color: #FFFFFF;
+            font-family: "Gilda Display", serif;
         }
     }
     .gal2{
@@ -91,6 +94,7 @@
         p{
             font-size: 15px;
             font-family: "Gilda Display", serif;
+            font-family: 100;
         }
         button{
             width: 138px;
@@ -100,6 +104,7 @@
             font-weight: normal;
             background-color: #1F1F1F;
             color: #FFFFFF;
+            font-family: "Gilda Display", serif;
         }
     }
  
