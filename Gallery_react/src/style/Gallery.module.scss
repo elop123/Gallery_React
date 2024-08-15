@@ -1,0 +1,29 @@
+.galleryContainer {
+    text-align: center;
+    padding: 20px;
+}
+ 
+.galleryTitle {
+    font-family: 'Gilda Display';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.66px;
+    color: #000;
+    margin-bottom: 20px;
+}
+ 
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+ 
+.galleryItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #D9D9D9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+ 
