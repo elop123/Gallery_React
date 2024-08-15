@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header headerText='Under the Moon' />
       <Main />
       <Gallery />
       <Footer />

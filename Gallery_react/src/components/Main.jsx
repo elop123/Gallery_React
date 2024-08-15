@@ -1,30 +1,29 @@
 import Img1 from '../assets/images/Img1.png'
 import Img2 from '../assets/images/Img2.png'
-import '../style/Main.module.scss'
+import styles from '../style/Main.module.scss'
 import Button from './Button';
  
 function Main(){
 return(
 <>
-<section className="newStyle">
+<section className={styles.newStyle}>
 <h2>UNDER THE MOON- NEW STYLE</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid 
             odio aut quia officia deleniti nihil tempore repudiandae distinctio voluptate! 
             Exercitationem excepturi sunt quae doloribus commodi natus, beatae voluptas.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid 
         odio aut quia officia deleniti nihil tempore repudiandae distinctio voluptate! 
-        Exercitationem excepturi sunt quae doloribus commodi natus, beatae voluptas.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid 
-        odio aut quia officia deleniti nihil tempore repudiandae distinctio voluptate! 
-        Exercitationem excepturi sunt quae doloribus commodi natus, beatae voluptas </p>
+        Exercitationem excepturi sunt quae doloribus commodi natus, beatae voluptas.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliqui.</p>
+        
 <Button text="LÆS MERE" />
 </section>
-<section className="gallery">
+<section className={styles.gallery}>
 <div>
 <img src={Img1} alt="img1" />
-<div className='gal'>
+<div className={styles.gal}>
 <h3>One 2 One</h3>
-<p className="galleryText">
+<p className={styles.galleryText}>
             Lorem ipsum dolor sit amet consectetur adipisicing. 
             Exercitationem aliquid odio aut quia officia deleniti 
             nihil tempore repudiandae distinctio voluptate! 
@@ -36,9 +35,9 @@ return(
 </div>
 <div>
 <img src={Img2} alt="img2" />
-<div className='gal2'>
+<div className={styles.gal2}>
 <h3>Loyalty Free</h3>
-<p className="galleryText">
+<p className={styles.galleryText}>
             Lorem ipsum dolor sit amet consectetur adipisicing. 
             Exercitationem aliquid odio aut quia officia deleniti 
             nihil tempore repudiandae distinctio voluptate! 
