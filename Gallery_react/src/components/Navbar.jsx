@@ -1,14 +1,14 @@
-import style from '../style/Navbar.module.scss'
+import styles from '../style/Navbar.module.scss'
  
 function Navbar() {
     return (
-        <nav className={style.navStyle}>
-            <ul className={style.navList}>
-                <li className={style.linkStyle}>HJEM</li>
-                <li className={style.linkStyle}>KONCEPTER</li>
-                <li className={style.linkStyle}>UTM LOYALTY</li>
-                <li className={style.linkStyle}>OM</li>
-                <li className={style.linkStyle}>KONTAKT</li>
+        <nav className={styles.navStyle}>
+            <ul className={styles.navList}>
+                <li className={styles.linkStyle}>HJEM</li>
+                <li className={styles.linkStyle}>KONCEPTER</li>
+                <li className={styles.linkStyle}>UTM LOYALTY</li>
+                <li className={styles.linkStyle}>OM</li>
+                <li className={styles.linkStyle}>KONTAKT</li>
             </ul>
         </nav>
     );
